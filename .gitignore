@@ -1,0 +1,22 @@
+# Secret keys
+.env
+
+# Python virtual environments
+.venv/
+.venv*/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Local document database
+data/
+chroma_db/
+vector_store/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Operating-system files
+.DS_Store
